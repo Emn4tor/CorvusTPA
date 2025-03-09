@@ -42,8 +42,10 @@ public class MessageManager {
         // Get language from config
         currentLanguage = plugin.getConfig().getString("language", "en-US");
 
+
         // Save default language files if they don't exist
         saveDefaultLanguageFile("en-US.yml");
+        saveDefaultLanguageFile("de-DE.yml");
 
         // Load the language file
         File langFile = new File(langDir, currentLanguage + ".yml");

@@ -9,8 +9,8 @@ tphere-request-sent: "<gradient:blue:aqua>Teleport-Hierher-Anfrage an <player> g
 tphere-request-received: "<gradient:gold:yellow><player> möchte, dass du dich zu ihnen teleportierst</gradient>\n<green>[Akzeptieren]</green> <red>[Ablehnen]</red>"
 
 # Accept/Deny Messages
-request-accepted-sender: "<gradient:green:lime><player> hat deine Teleportanfrage akzeptiert</gradient>"
-request-accepted-target: "<gradient:green:lime>Du hast die Teleportanfrage von <player> akzeptiert</gradient>"
+request-accepted-sender: "<gradient:green:green><player> hat deine Teleportanfrage akzeptiert</gradient>"
+request-accepted-target: "<gradient:green:green>Du hast die Teleportanfrage von <player> akzeptiert</gradient>"
 request-denied-sender: "<gradient:red:yellow><player> hat deine Teleportanfrage abgelehnt</gradient>"
 request-denied-target: "<gradient:red:yellow>Du hast die Teleportanfrage von <player> abgelehnt</gradient>"
 

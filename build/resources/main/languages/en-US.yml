@@ -9,8 +9,8 @@ tphere-request-sent: "<gradient:blue:aqua>Teleport here request sent to <player>
 tphere-request-received: "<gradient:gold:yellow><player> wants you to teleport to them</gradient>\n<green>[Accept]</green> <red>[Deny]</red>"
 
 # Accept/Deny Messages
-request-accepted-sender: "<gradient:green:lime><player> accepted your teleport request</gradient>"
-request-accepted-target: "<gradient:green:lime>You accepted <player>'s teleport request</gradient>"
+request-accepted-sender: "<gradient:green:green><player> accepted your teleport request</gradient>"
+request-accepted-target: "<gradient:green:green>You accepted <player>'s teleport request</gradient>"
 request-denied-sender: "<gradient:red:yellow><player> denied your teleport request</gradient>"
 request-denied-target: "<gradient:red:yellow>You denied <player>'s teleport request</gradient>"
 
