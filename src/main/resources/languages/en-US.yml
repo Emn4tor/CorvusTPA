@@ -1,0 +1,30 @@
+# English (US) language file for CorvusTPA
+
+# TPA Messages
+tpa-request-sent: "<gradient:blue:aqua>Teleport request sent to <player></gradient>"
+tpa-request-received: "<gradient:gold:yellow><player> wants to teleport to you</gradient>\n<green>[Accept]</green> <red>[Deny]</red>"
+
+# TPHere Messages
+tphere-request-sent: "<gradient:blue:aqua>Teleport here request sent to <player></gradient>"
+tphere-request-received: "<gradient:gold:yellow><player> wants you to teleport to them</gradient>\n<green>[Accept]</green> <red>[Deny]</red>"
+
+# Accept/Deny Messages
+request-accepted-sender: "<gradient:green:lime><player> accepted your teleport request</gradient>"
+request-accepted-target: "<gradient:green:lime>You accepted <player>'s teleport request</gradient>"
+request-denied-sender: "<gradient:red:yellow><player> denied your teleport request</gradient>"
+request-denied-target: "<gradient:red:yellow>You denied <player>'s teleport request</gradient>"
+
+# Cancel Messages
+request-cancelled: "<gradient:gray:white>You cancelled your teleport request</gradient>"
+request-cancelled-target: "<gradient:gray:white><player> cancelled their teleport request</gradient>"
+
+# Expired Messages
+request-expired: "<gradient:gray:white>Your teleport request has expired</gradient>"
+request-expired-target: "<gradient:gray:white>Teleport request from <player> has expired</gradient>"
+
+# Error Messages
+no-request-found: "<gradient:red:yellow>You don't have any pending teleport requests</gradient>"
+player-not-found: "<gradient:red:yellow>Player <player> not found or offline</gradient>"
+self-teleport: "<gradient:red:yellow>You cannot teleport to yourself</gradient>"
+already-has-request: "<gradient:red:yellow>You already have a pending teleport request</gradient>"
+

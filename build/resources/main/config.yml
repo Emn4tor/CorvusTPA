@@ -1,0 +1,10 @@
+# CorvusTPA Configuration
+
+# Time in seconds before a teleport request expires
+request-timeout: 60
+
+# Language setting (e.g., en-US, de-DE etc.)
+# Language files are stored in the /languages/ directory
+# Missing a language file? Feel free to create one or even submit a pull request on GitHub!
+language: en-US
+

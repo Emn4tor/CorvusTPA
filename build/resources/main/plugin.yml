@@ -1,0 +1,43 @@
+name: CorvusTPA
+version: '0.1.0'
+main: de.emn4tor.CorvusTPA
+api-version: '1.21'
+commands:
+  tpa:
+    description: Request to teleport to another player
+    usage: /tpa <player>
+    permission: tpaplugin.tpa
+  tpaccept:
+    description: Accept a teleport request
+    usage: /tpaccept
+    permission: tpaplugin.tpaccept
+  tpdeny:
+    description: Deny a teleport request
+    usage: /tpdeny
+    permission: tpaplugin.tpdeny
+  tphere:
+    description: Request a player to teleport to you
+    usage: /tphere <player>
+    permission: tpaplugin.tphere
+  tpcancel:
+    description: Cancel a pending teleport request
+    usage: /tpcancel
+    permission: tpaplugin.tpcancel
+
+permissions:
+  tpaplugin.tpa:
+    description: Allows the use of /tpa command
+    default: true
+  tpaplugin.tpaccept:
+    description: Allows the use of /tpaccept command
+    default: true
+  tpaplugin.tpdeny:
+    description: Allows the use of /tpdeny command
+    default: true
+  tpaplugin.tphere:
+    description: Allows the use of /tphere command
+    default: true
+  tpaplugin.tpcancel:
+    description: Allows the use of /tpcancel command
+    default: true
+
