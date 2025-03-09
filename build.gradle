@@ -47,3 +47,9 @@ processResources {
         expand props
     }
 }
+
+sonar {
+    properties {
+        property "sonar.projectKey", "YellowMC-Lobby"
+    }
+}
