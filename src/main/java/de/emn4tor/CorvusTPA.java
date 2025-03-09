@@ -49,7 +49,7 @@ public final class CorvusTPA extends JavaPlugin {
         }
 
         getLogger().info("CorvusTPA has been disabled!");
-        getLogger().info("Bye bye!");
+        getLogger().info("Bye bye!!");
     }
 
     public RequestManager getRequestManager() {
